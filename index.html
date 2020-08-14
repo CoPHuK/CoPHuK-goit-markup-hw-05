@@ -63,7 +63,7 @@
       <!--Заказ услуги-->
       <section class="hero">
         <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
-        <a href="" class="button">Заказать услугу</a>
+        <button class="button" data-modal-open>Заказать услугу</button>
       </section>
       <!--Скилы-->
       <section class="skills">
@@ -383,6 +383,7 @@
         </div>
       </section>
     </main>
+
     <footer>
       <div class="container">
         <div class="footer-container">
@@ -438,5 +439,17 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-close" data-modal-close>
+          <svg class="close-icon">
+            <use href="./img/symbol-defs.svg#icon-closebtm"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
