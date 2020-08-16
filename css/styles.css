@@ -562,7 +562,7 @@ footer span {
 }
 .pfitem-type {
   display: block;
-  margin: 4px 24px 20px 24px;
+  padding: 4px 24px 20px 24px;
   color: var(--main-color);
   font-size: 16px;
   line-height: 1.9;
@@ -570,7 +570,7 @@ footer span {
 .pfitem h3 {
   font-size: 18px;
   line-height: 2;
-  margin: 20px 24px 0px 24px;
+  padding: 20px 24px 0px 24px;
 }
 .pfitem p {
   background-color: rgba(33, 150, 243, 0.9);
@@ -596,6 +596,9 @@ footer span {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  transition: box-shadow var(--timing) cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pf-container:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
