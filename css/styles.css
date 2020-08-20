@@ -50,7 +50,6 @@ h2 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  text-transform: uppercase;
 }
 
 img {
@@ -654,16 +653,14 @@ footer span {
   width: 100%;
   max-width: 528px;
   min-height: 100px;
-  padding: 20px;
   margin: auto;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
-.modal-text {
-  font-size: 24px;
-  font-weight: 700;
 }
 .btn-close {
   background-color: #fff;
@@ -678,4 +675,48 @@ footer span {
 .close-icon {
   width: 10px;
   height: 10px;
+}
+
+.modal h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.input-form {
+  display: blocks;
+  padding: 0;
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+}
+.input-container {
+  position: relative;
+}
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+.comment-block {
+  padding: 12px 16px;
+}
+.modal-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  transform: translateY(-50%) translatex(15px);
+}
+.input-form.comment-block {
+  margin-bottom: 20px;
+}
+.agreement {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
 }

@@ -447,7 +447,53 @@
             <use href="./img/symbol-defs.svg#icon-closebtm"></use>
           </svg>
         </button>
-        <p class="modal-text">Lorem ipsum dolor sit amet consectetur.</p>
+        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+        <form action="">
+          <label for="user-name" class="modal-label">Имя</label>
+          <div class="input-container">
+            <svg class="modal-icon">
+              <use href="./img/symbol-defs.svg#icon-name-modal"></use>
+            </svg>
+            <input type="text" name="name" id="user-name" class="input-form" />
+          </div>
+
+          <label for="user-phone" class="modal-label">Телефон</label>
+          <div class="input-container">
+            <svg class="modal-icon">
+              <use href="./img/symbol-defs.svg#icon-phone-modal"></use>
+            </svg>
+            <input
+              type="text"
+              name="phone"
+              id="user-phone"
+              class="input-form"
+            />
+          </div>
+
+          <label for="user-mail" class="modal-label">Почта</label>
+          <div class="input-container">
+            <svg class="modal-icon">
+              <use href="./img/symbol-defs.svg#icon-email-modal"></use>
+            </svg>
+            <input type="text" name="mail" id="user-mail" class="input-form" />
+          </div>
+
+          <label for="user-massage" class="modal-label">Комментарий</label>
+          <textarea
+            class="input-form comment-block"
+            name="message"
+            id="user-massage"
+            cols="30"
+            rows="10"
+            placeholder="Введите текст"
+          ></textarea>
+          <input type="checkbox" name="sss" id="" />
+          <span class="agreement"
+            >Соглашаюсь с рассылкой и принимаю
+            <a href="">Условия договора</a></span
+          >
+          <button class="button modal-button">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
