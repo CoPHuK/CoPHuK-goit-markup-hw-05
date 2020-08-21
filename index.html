@@ -435,7 +435,23 @@
         </div>
         <div class="footer-container">
           <b>Подпишитесь на рассылку</b>
-          <a href="" class="button"> Подписаться</a>
+          <div class="subscription">
+            <form class="footer-form">
+              <input
+                class="sub-form"
+                type="text"
+                name=""
+                id="mail-footer"
+                placeholder="E-mail"
+              />
+            </form>
+            <button class="button">
+              <svg class="footer-send-icon">
+                <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+              Подписаться
+            </button>
+          </div>
         </div>
       </div>
     </footer>
@@ -483,8 +499,7 @@
             class="input-form comment-block"
             name="message"
             id="user-massage"
-            cols="30"
-            rows="10"
+            rows="6"
             placeholder="Введите текст"
           ></textarea>
           <input type="checkbox" name="sss" id="" />
